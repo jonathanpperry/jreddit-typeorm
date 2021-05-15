@@ -42,8 +42,8 @@ export type Post = {
   text: Scalars['String'];
   points: Scalars['Float'];
   creatorId: Scalars['Float'];
-  createdAt: Scalars['DateTime'];
-  updatedAt: Scalars['DateTime'];
+  createdAt: Scalars['String'];
+  updatedAt: Scalars['String'];
   textSnippet: Scalars['String'];
 };
 
